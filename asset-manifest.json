@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/icxsearchtool/static/css/main.56de1f03.css",
+    "main.css": "/icxsearchtool/static/css/main.3995a56f.css",
     "main.js": "/icxsearchtool/static/js/main.4f7d7bb9.js",
     "static/js/488.7c5f96c4.chunk.js": "/icxsearchtool/static/js/488.7c5f96c4.chunk.js",
     "static/media/sirine.png": "/icxsearchtool/static/media/sirine.68700f3ed60756aade3a.png",
@@ -16,12 +16,12 @@
     "static/media/igtf.png": "/icxsearchtool/static/media/igtf.b02b4a2d9fa58ed047ee.png",
     "static/media/aiesecl.png": "/icxsearchtool/static/media/aiesecl.c032e27960b4a22535f6.png",
     "index.html": "/icxsearchtool/index.html",
-    "main.56de1f03.css.map": "/icxsearchtool/static/css/main.56de1f03.css.map",
+    "main.3995a56f.css.map": "/icxsearchtool/static/css/main.3995a56f.css.map",
     "main.4f7d7bb9.js.map": "/icxsearchtool/static/js/main.4f7d7bb9.js.map",
     "488.7c5f96c4.chunk.js.map": "/icxsearchtool/static/js/488.7c5f96c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56de1f03.css",
+    "static/css/main.3995a56f.css",
     "static/js/main.4f7d7bb9.js"
   ]
 }
