@@ -41,12 +41,23 @@ const Opps = () => {
         <h2>Opportunities</h2>
         <div className="opportunity-cards">
           {data.map((opportunity, index) => (
+            
             <div className="opportunity-card" key={index}>
-              <img
+              <div className="im2"><img
                 src={opportunityImages[opportunity.PROJECT]}
                 alt={opportunity.PROJECT}
                 className="opportunity-image"
               />
+              <a
+                href={`https://aiesec.org/opportunity/global-volunteer/${opportunity["ID"]}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opportunity-link l2"
+              >
+                Learn More
+              </a>
+            </div>
+              <div className="opportunity-details">
               <h3>{opportunity.PROJECT}</h3>
               <p><strong>Start Date:</strong> {opportunity["Start date"]}</p>
               <p><strong>End Date:</strong> {opportunity["End date"]}</p>
@@ -59,10 +70,11 @@ const Opps = () => {
                 href={`https://aiesec.org/opportunity/global-volunteer/${opportunity["ID"]}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="opportunity-link"
+                className="opportunity-link l1"
               >
                 Learn More
               </a>
+            </div>
             </div>
           ))}
         </div>
