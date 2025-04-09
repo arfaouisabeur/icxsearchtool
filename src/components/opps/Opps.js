@@ -8,6 +8,12 @@ import Skillup from "./assets/8.6 white.png";
 import Onthemap from "./assets/8.9 white.png";
 import Eat4change from "./assets/eat.png";
 import Scaleup from "./assets/skill.png";
+import bus from "./assets/bus.jpg";
+import voise from "./assets/voice.jpg";
+import youth from "./assets/youth.jpg";
+import "./opps.css";
+import green from "./assets/green.jpg";
+
 
 const Opps = () => {
   const [data, setData] = useState([]);
@@ -36,7 +42,11 @@ const Opps = () => {
     "Skill Up!": Skillup,
     "On the Map": Onthemap,
     "Eat4change": Eat4change,
-    "Scale Up": Scaleup
+    "Scale Up": Scaleup,
+    "Happy Bus": bus,
+    "Raise your Voice": voise,
+    "Youth 4 Impact": youth,
+    "Green Leaders": green
   };
 
   return (
