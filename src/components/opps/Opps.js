@@ -11,6 +11,8 @@ import Scaleup from "./assets/skill.png";
 import bus from "./assets/bus.jpg";
 import voise from "./assets/voice.jpg";
 import youth from "./assets/youth.jpg";
+import equify from "./assets/equify.jpg"
+
 import "./opps.css";
 import green from "./assets/green.jpg";
 
@@ -46,7 +48,8 @@ const Opps = () => {
     "Happy Bus": bus,
     "Raise your Voice": voise,
     "Youth 4 Impact": youth,
-    "Green Leaders": green
+    "Green Leaders": green,
+    "Equify": equify
   };
 
   return (
